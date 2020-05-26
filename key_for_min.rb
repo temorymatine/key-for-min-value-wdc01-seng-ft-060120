@@ -8,9 +8,10 @@ def key_for_min_value(name_hash)
   
 name_hash.each{|key,value| 
 min_val = value if min_val == nil || min_val > value
+name_hash
 }
 
-puts min_val
+
 
 
 end
