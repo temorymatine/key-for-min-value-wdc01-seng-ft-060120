@@ -14,9 +14,9 @@ min_val = value if min_val == nil || min_val > value }
 name_hash.each{|k,v| 
 
 
-if v == min_val
+if (v == min_val
 
-puts k
+puts k)
   
   
 }
