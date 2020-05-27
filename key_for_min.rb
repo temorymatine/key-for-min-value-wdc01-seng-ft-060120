@@ -11,7 +11,7 @@ min_val = value if min_val == nil || min_val > value }
 
 #hashnew = Hash.new()
 
-name_hash.each{|k,v| puts k if v=min_val}
+name_hash.each_value{|k,v| puts k if v=min_val}
 
 
 
