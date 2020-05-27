@@ -10,7 +10,9 @@ name_hash.each{|key,value|
 min_val = value if min_val == nil || min_val > value
 
 }
-
- name_hash.select{|k,v| puts ":#{k}" if v == min_val  }
+answer = nil
+ name_hash.select{|k,v| k = answer if v == min_val  }
+ 
+ answer
 
 end
