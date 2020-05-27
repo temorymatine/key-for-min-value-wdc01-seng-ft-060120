@@ -11,9 +11,9 @@ min_val = value if min_val == nil || min_val > value
 
 }
 answer = nil
- name_hash.each{|k,v| puts k if v == min_val  }
+ name_hash.each{|k,v| k= answer if v == min_val  }
  
-
+puts answer
 
 
 end
