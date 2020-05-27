@@ -9,7 +9,12 @@ def key_for_min_value(name_hash)
 name_hash.each{|key,value| 
 min_val = value if min_val == nil || min_val > value }
 
-name_each
+name_hash.each do |k, v|
+    if name_hash.include? min_val
+        puts "#{k}"  
+    else
+        answer
+   end
 
 
 
