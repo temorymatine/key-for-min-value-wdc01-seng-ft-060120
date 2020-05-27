@@ -9,9 +9,9 @@ def key_for_min_value(name_hash)
 name_hash.each{|key,value| 
 min_val = value if min_val == nil || min_val > value }
 
-#hashnew = Hash.new()
+puts min_val
 
-name_hash.each_value{|v| puts v}
+name_hash.each_key{|k| puts v}
 
 
 
