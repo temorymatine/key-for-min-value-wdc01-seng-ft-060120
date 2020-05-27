@@ -9,9 +9,17 @@ def key_for_min_value(name_hash)
 name_hash.each{|key,value| 
 min_val = value if min_val == nil || min_val > value }
 
-puts min_val
 
-name_hash.each_key{|k| puts v}
+
+name_hash.each{|k,v| 
+
+
+if v == min_val
+
+puts k
+  
+  
+}
 
 
 
