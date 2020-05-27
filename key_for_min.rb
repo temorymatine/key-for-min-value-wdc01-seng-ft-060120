@@ -11,7 +11,7 @@ min_val = value if min_val == nil || min_val > value
 
 }
 
-name_hash.select{|k,v| (v == min_val)}
+puts name_hash.select{|k,v| (v == min_val)}
 
 
 end
