@@ -12,6 +12,7 @@ min_val = value if min_val == nil || min_val > value
 }
 
 puts name_hash.select{|k,v| (v == min_val)}
+k
 
 
 end
