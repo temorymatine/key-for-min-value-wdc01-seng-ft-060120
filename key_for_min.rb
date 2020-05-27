@@ -9,7 +9,9 @@ def key_for_min_value(name_hash)
 name_hash.each{|key,value| 
 min_val = value if min_val == nil || min_val > value }
 
-name_hash.any?{|k,v| k if v=min_val}
+hashnew = {}
+
+name_hash.select{|k,v|  if v=min_val}
 
 
 
